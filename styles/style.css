@@ -98,13 +98,10 @@ body {
   margin-top: 100px;
   align-items: flex-end;
 }
-.header__hours {
-  margin-left: 0;
-}
+
 .header__list {
   list-style: none;
   margin-left: 80px;
-  margin-bottom: 40px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 16px;
@@ -112,6 +109,7 @@ body {
   color: #838383;
   gap: 0;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .header__paragraph {
