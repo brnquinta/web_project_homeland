@@ -67,6 +67,9 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
 }
 
 .footer__social-logo {
@@ -85,5 +88,8 @@
   line-height: 20px;
 }
 .footer__social-link:focus {
+  color: #c1c1c1;
+}
+.footer__social-link:hover {
   color: #c1c1c1;
 }
