@@ -53,8 +53,10 @@
   letter-spacing: 0%;
   margin: 0 0 8px 0;
 }
-.place__paragraph {
+.place__text {
   grid-area: text;
+}
+.place__paragraph {
   color: #fff;
   margin: 0 0 25px 0;
   font-family: Inter;
@@ -140,6 +142,9 @@
     line-height: 22px;
     letter-spacing: 0%;
   }
+  .place__text {
+    grid-area: text;
+  }
 
   .place__paragraph {
     font-family: Inter;
@@ -202,6 +207,10 @@
     max-width: 320px;
     width: 100%;
   }
+  .place__text {
+    grid-area: text;
+  }
+
   .place__paragraph {
     max-width: 288px;
     width: 100%;
