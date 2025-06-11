@@ -8,3 +8,18 @@
 .photo-grid__item {
   width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 0 16px 62px 16px;
+  }
+  .photo-grid__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+}
