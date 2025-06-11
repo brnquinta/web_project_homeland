@@ -39,7 +39,7 @@
   flex-direction: column;
   align-self: end;
 }
-.website__url-heading {
+.place__url-heading {
   color: #aaaaaa;
   font-family: Inter;
   font-weight: 400;
@@ -49,7 +49,7 @@
   text-transform: uppercase;
   margin: 0 0 8px 0;
 }
-.website__artist {
+.place__artist {
   color: #fff;
   font-family: Inter;
   font-weight: 400;
@@ -138,7 +138,7 @@
     margin: 0 0 0 0;
   }
 
-  .website__url-heading {
+  .place__url-heading {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -148,7 +148,7 @@
     max-width: 352px;
     width: 100%;
   }
-  .website__artist {
+  .place__artist {
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
@@ -202,7 +202,7 @@
     max-width: 288px;
     width: 100%;
   }
-  .website__url-heading {
+  .place__url-heading {
     font-family: Inter;
     font-weight: 400;
     font-size: 12px;
@@ -210,7 +210,7 @@
     letter-spacing: 12%;
     text-transform: uppercase;
   }
-  .website__artist {
+  .place__artist {
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
