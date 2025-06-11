@@ -11,15 +11,26 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin: 0 24px 88px 24px;
+  }
+  .photo-grid__item {
+    max-width: 720px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .photo-grid {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     gap: 12px;
     margin: 0 16px 62px 16px;
   }
   .photo-grid__item {
+    max-width: 288px;
     width: 100%;
   }
-}
-
-@media screen and (max-width: 544px) {
 }
